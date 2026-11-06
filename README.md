@@ -66,6 +66,10 @@ cd web && npm run lint && npx tsc --noEmit && npm run build
 
 API tests run against SQLite and apply the real Alembic migration.
 
+## Docs
+
+- [Git & GitHub guide](docs/git-guide.md)
+
 ## Notes
 
 - Binding `web` to the Tailscale IP needs `tailscaled` up before Docker starts the container at boot.

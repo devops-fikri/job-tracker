@@ -13,8 +13,12 @@ Self-hosted job application tracker. Phase 1: core app (web UI, API, database, f
 
 ## First start
 
+Needs Docker with the Compose plugin. All config and secrets live in `.env`, which is git-ignored: never commit it.
+
 ```sh
-cd ~/job-tracker
+git clone https://github.com/devops-fikri/job-tracker.git && cd job-tracker
+cp .env.example .env && chmod 600 .env
+# edit .env: set a strong POSTGRES_PASSWORD (e.g. `openssl rand -hex 24`) and WEB_BIND (your Tailscale IP, or 127.0.0.1)
 sudo docker compose up -d --build
 sudo docker compose exec api python -m app.cli create-user you@example.com   # prompts for a password (12+ chars)
 # optional, fictional sample data with dates shifted to today:

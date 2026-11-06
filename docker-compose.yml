@@ -1,0 +1,111 @@
+name: jobtracker
+
+x-api-env: &api-env
+  DATABASE_URL: postgresql+psycopg://jobtracker:${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}@db:5432/jobtracker
+  REDIS_URL: redis://redis:6379/0
+  TIMEZONE: Asia/Kuala_Lumpur
+  COOKIE_SECURE: ${COOKIE_SECURE:-false}
+  UPLOAD_DIR: /data/uploads
+
+services:
+  db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: jobtracker
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: jobtracker
+      TZ: Asia/Kuala_Lumpur
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U jobtracker -d jobtracker"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks: [backend]
+
+  redis:
+    image: redis:8-alpine
+    restart: unless-stopped
+    command: ["redis-server", "--save", "", "--appendonly", "no"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks: [backend]
+
+  api:
+    build: ./api
+    restart: unless-stopped
+    environment: *api-env
+    volumes:
+      - ./data/uploads:/data/uploads
+      - ./backups:/backups:ro
+    depends_on:
+      db: { condition: service_healthy }
+      redis: { condition: service_healthy }
+    ports:
+      - "127.0.0.1:8000:8000"   # local debugging / API docs only
+    networks: [backend, frontend]
+
+  worker:
+    build: ./api
+    restart: unless-stopped
+    command: ["celery", "-A", "app.worker", "worker", "--loglevel=INFO", "--concurrency=2"]
+    environment: *api-env
+    depends_on:
+      api: { condition: service_healthy }
+    healthcheck:
+      disable: true
+    networks: [backend]
+
+  beat:
+    build: ./api
+    restart: unless-stopped
+    command: ["celery", "-A", "app.worker", "beat", "--loglevel=INFO", "--schedule=/tmp/celerybeat-schedule"]
+    environment: *api-env
+    depends_on:
+      api: { condition: service_healthy }
+    healthcheck:
+      disable: true
+    networks: [backend]
+
+  web:
+    build: ./web
+    restart: unless-stopped
+    environment:
+      API_INTERNAL_URL: http://api:8000
+    depends_on:
+      api: { condition: service_healthy }
+    ports:
+      - "${WEB_BIND:-127.0.0.1}:3000:3000"
+    networks: [frontend]
+
+  backup:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    user: "1000:1000"
+    entrypoint: ["/bin/sh", "/backup.sh"]
+    environment:
+      PGHOST: db
+      PGUSER: jobtracker
+      PGDATABASE: jobtracker
+      PGPASSWORD: ${POSTGRES_PASSWORD}
+      TZ: Asia/Kuala_Lumpur
+      BACKUP_HOUR: "3"
+      BACKUP_KEEP: "14"
+    volumes:
+      - ./backup/backup.sh:/backup.sh:ro
+      - ./backups:/backups
+    depends_on:
+      db: { condition: service_healthy }
+    networks: [backend]
+
+volumes:
+  pgdata:
+
+networks:
+  backend:
+  frontend:

@@ -1,0 +1,1351 @@
+{
+ "anchor": "2026-11-05",
+ "applications": [
+  {
+   "id": "a01",
+   "company": "ABC Technologies",
+   "title": "Cloud Security Engineer",
+   "description": "Own cloud security posture across AWS and Azure: IAM guardrails, CSPM tooling, incident response runbooks, and secure landing-zone design. Terraform and Python required; CCSP or AWS Security Specialty a plus.",
+   "location": "Kuala Lumpur",
+   "employmentType": "Full-time",
+   "workArrangement": "Hybrid",
+   "salaryMin": 9000,
+   "salaryMax": 12000,
+   "currency": "MYR",
+   "platform": "LinkedIn",
+   "url": "https://careers.example.com/abctechnologies/a01",
+   "appliedAt": "2026-10-20",
+   "status": "interview_scheduled",
+   "recruiter": {
+    "name": "Aina Rahman",
+    "email": "aina@abctechnologies.example.com",
+    "phone": "+60 12-345 6789"
+   },
+   "resumeVersionId": "r2",
+   "notes": "Hiring manager mentioned heavy focus on AWS Organizations + SCPs. Review GuardDuty findings workflow.",
+   "lastCommunication": "2026-11-02T10:51:00+08:00",
+   "updatedAt": "2026-11-02T10:51:00+08:00",
+   "timeline": [
+    {
+     "id": "a01-e3",
+     "at": "2026-11-02T10:51:00+08:00",
+     "kind": "status",
+     "title": "Status → Interview Scheduled",
+     "detail": "Detected from an email from ABC Technologies",
+     "source": "gmail"
+    },
+    {
+     "id": "a01-e2",
+     "at": "2026-10-29T15:34:00+08:00",
+     "kind": "status",
+     "title": "Status → Recruiter Contacted",
+     "detail": "Detected from an email from ABC Technologies",
+     "source": "gmail"
+    },
+    {
+     "id": "a01-e1",
+     "at": "2026-10-25T12:17:00+08:00",
+     "kind": "status",
+     "title": "Status → Application Received",
+     "detail": "Detected from an email from ABC Technologies",
+     "source": "gmail"
+    },
+    {
+     "id": "a01-e0",
+     "at": "2026-10-20T09:00:00+08:00",
+     "kind": "created",
+     "title": "Applied via LinkedIn",
+     "source": "manual"
+    }
+   ]
+  },
+  {
+   "id": "a02",
+   "company": "XYZ Networks",
+   "title": "Network Security Engineer",
+   "description": "Design and operate enterprise firewalls (Palo Alto, Fortinet), segmentation, VPN and NAC across three data centres. On-call rotation; CCNP Security preferred.",
+   "location": "Cyberjaya",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "salaryMin": 8000,
+   "salaryMax": 10500,
+   "currency": "MYR",
+   "platform": "JobStreet",
+   "url": "https://careers.example.com/xyznetworks/a02",
+   "appliedAt": "2026-10-15",
+   "status": "interview_scheduled",
+   "recruiter": {
+    "name": "Daniel Lim",
+    "email": "daniel@xyznetworks.example.com",
+    "phone": "+60 12-345 6789"
+   },
+   "resumeVersionId": "r2",
+   "notes": "",
+   "lastCommunication": "2026-11-01T10:51:00+08:00",
+   "updatedAt": "2026-11-01T10:51:00+08:00",
+   "timeline": [
+    {
+     "id": "a02-e3",
+     "at": "2026-11-01T10:51:00+08:00",
+     "kind": "status",
+     "title": "Status → Interview Scheduled",
+     "detail": "Detected from an email from XYZ Networks",
+     "source": "gmail"
+    },
+    {
+     "id": "a02-e2",
+     "at": "2026-10-27T15:34:00+08:00",
+     "kind": "status",
+     "title": "Status → Under Review",
+     "source": "manual"
+    },
+    {
+     "id": "a02-e1",
+     "at": "2026-10-21T12:17:00+08:00",
+     "kind": "status",
+     "title": "Status → Application Received",
+     "detail": "Detected from an email from XYZ Networks",
+     "source": "gmail"
+    },
+    {
+     "id": "a02-e0",
+     "at": "2026-10-15T09:00:00+08:00",
+     "kind": "created",
+     "title": "Applied via JobStreet",
+     "source": "manual"
+    }
+   ]
+  },
+  {
+   "id": "a03",
+   "company": "Kinabalu Cloud",
+   "title": "DevOps Engineer",
+   "description": "Build CI/CD pipelines, Kubernetes platforms and observability for a fast-growing SaaS. GitOps with Argo CD, Terraform, Prometheus/Grafana.",
+   "location": "Remote (MY)",
+   "employmentType": "Full-time",
+   "workArrangement": "Remote",
+   "salaryMin": 10000,
+   "salaryMax": 13000,
+   "currency": "MYR",
+   "platform": "LinkedIn",
+   "url": "https://careers.example.com/kinabalucloud/a03",
+   "appliedAt": "2026-10-02",
+   "status": "second_interview",
+   "recruiter": {
+    "name": "Priya Nair",
+    "email": "priya@kinabalucloud.example.com",
+    "phone": "+60 12-345 6789"
+   },
+   "resumeVersionId": "r2",
+   "notes": "",
+   "lastCommunication": "2026-10-31T16:25:00+08:00",
+   "updatedAt": "2026-10-31T16:25:00+08:00",
+   "timeline": [
+    {
+     "id": "a03-e5",
+     "at": "2026-10-31T16:25:00+08:00",
+     "kind": "status",
+     "title": "Status → Second Interview",
+     "source": "manual"
+    },
+    {
+     "id": "a03-e4",
+     "at": "2026-10-26T13:08:00+08:00",
+     "kind": "status",
+     "title": "Status → Interview Completed",
+     "source": "manual"
+    },
+    {
+     "id": "a03-e3",
+     "at": "2026-10-20T10:51:00+08:00",
+     "kind": "status",
+     "title": "Status → Interview Scheduled",
+     "detail": "Detected from an email from Kinabalu Cloud",
+     "source": "gmail"
+    },
+    {
+     "id": "a03-e2",
+     "at": "2026-10-14T15:34:00+08:00",
+     "kind": "status",
+     "title": "Status → Assessment",
+     "detail": "Detected from an email from Kinabalu Cloud",
+     "source": "gmail"
+    },
+    {
+     "id": "a03-e1",
+     "at": "2026-10-09T12:17:00+08:00",
+     "kind": "status",
+     "title": "Status → Application Received",
+     "detail": "Detected from an email from Kinabalu Cloud",
+     "source": "gmail"
+    },
+    {
+     "id": "a03-e0",
+     "at": "2026-10-02T09:00:00+08:00",
+     "kind": "created",
+     "title": "Applied via LinkedIn",
+     "source": "manual"
+    }
+   ]
+  },
+  {
+   "id": "a04",
+   "company": "Straits Fintech",
+   "title": "Site Reliability Engineer",
+   "description": "Site Reliability Engineer role at Straits Fintech. Full job description captured from the posting.",
+   "location": "Singapore (Remote)",
+   "employmentType": "Full-time",
+   "workArrangement": "Remote",
+   "salaryMin": 14000,
+   "salaryMax": 17000,
+   "currency": "MYR",
+   "platform": "Company Website",
+   "url": "https://careers.example.com/straitsfintech/a04",
+   "appliedAt": "2026-09-26",
+   "status": "offer_received",
+   "recruiter": {
+    "name": "Marcus Tan",
+    "email": "marcus@straitsfintech.example.com",
+    "phone": "+60 12-345 6789"
+   },
+   "resumeVersionId": "r2",
+   "notes": "",
+   "lastCommunication": "2026-10-30T16:25:00+08:00",
+   "updatedAt": "2026-10-30T16:25:00+08:00",
+   "timeline": [
+    {
+     "id": "a04-e5",
+     "at": "2026-10-30T16:25:00+08:00",
+     "kind": "status",
+     "title": "Status → Offer Received",
+     "detail": "Detected from an email from Straits Fintech",
+     "source": "gmail"
+    },
+    {
+     "id": "a04-e4",
+     "at": "2026-10-24T13:08:00+08:00",
+     "kind": "status",
+     "title": "Status → Final Interview",
+     "source": "manual"
+    },
+    {
+     "id": "a04-e3",
+     "at": "2026-10-17T10:51:00+08:00",
+     "kind": "status",
+     "title": "Status → Interview Completed",
+     "source": "manual"
+    },
+    {
+     "id": "a04-e2",
+     "at": "2026-10-10T15:34:00+08:00",
+     "kind": "status",
+     "title": "Status → Interview Scheduled",
+     "detail": "Detected from an email from Straits Fintech",
+     "source": "gmail"
+    },
+    {
+     "id": "a04-e1",
+     "at": "2026-10-04T12:17:00+08:00",
+     "kind": "status",
+     "title": "Status → Application Received",
+     "detail": "Detected from an email from Straits Fintech",
+     "source": "gmail"
+    },
+    {
+     "id": "a04-e0",
+     "at": "2026-09-26T09:00:00+08:00",
+     "kind": "created",
+     "title": "Applied via Company Website",
+     "source": "manual"
+    }
+   ]
+  },
+  {
+   "id": "a05",
+   "company": "Merdeka Cyber",
+   "title": "SOC Analyst II",
+   "description": "SOC Analyst II role at Merdeka Cyber. Full job description captured from the posting.",
+   "location": "Petaling Jaya",
+   "employmentType": "Full-time",
+   "workArrangement": "Hybrid",
+   "salaryMin": 6500,
+   "salaryMax": 8000,
+   "currency": "MYR",
+   "platform": "Indeed",
+   "url": "https://careers.example.com/merdekacyber/a05",
+   "appliedAt": "2026-10-09",
+   "status": "rejected",
+   "resumeVersionId": "r2",
+   "notes": "",
+   "lastCommunication": "2026-10-28T15:34:00+08:00",
+   "updatedAt": "2026-10-28T15:34:00+08:00",
+   "timeline": [
+    {
+     "id": "a05-e2",
+     "at": "2026-10-28T15:34:00+08:00",
+     "kind": "status",
+     "title": "Status → Rejected",
+     "detail": "Detected from an email from Merdeka Cyber",
+     "source": "gmail"
+    },
+    {
+     "id": "a05-e1",
+     "at": "2026-10-19T12:17:00+08:00",
+     "kind": "status",
+     "title": "Status → Application Received",
+     "detail": "Detected from an email from Merdeka Cyber",
+     "source": "gmail"
+    },
+    {
+     "id": "a05-e0",
+     "at": "2026-10-09T09:00:00+08:00",
+     "kind": "created",
+     "title": "Applied via Indeed",
+     "source": "manual"
+    }
+   ]
+  },
+  {
+   "id": "a06",
+   "company": "Petaling Systems",
+   "title": "Platform Engineer",
+   "description": "Platform Engineer role at Petaling Systems. Full job description captured from the posting.",
+   "location": "Petaling Jaya",
+   "employmentType": "Full-time",
+   "workArrangement": "Hybrid",
+   "salaryMin": 9500,
+   "salaryMax": 11500,
+   "currency": "MYR",
+   "platform": "JobStreet",
+   "url": "https://careers.example.com/petalingsystems/a06",
+   "appliedAt": "2026-10-24",
+   "status": "under_review",
+   "resumeVersionId": "r2",
+   "notes": "",
+   "lastCommunication": "2026-11-02T15:34:00+08:00",
+   "updatedAt": "2026-11-02T15:34:00+08:00",
+   "timeline": [
+    {
+     "id": "a06-e2",
+     "at": "2026-11-02T15:34:00+08:00",
+     "kind": "status",
+     "title": "Status → Under Review",
+     "source": "manual"
+    },
+    {
+     "id": "a06-e1",
+     "at": "2026-10-29T12:17:00+08:00",
+     "kind": "status",
+     "title": "Status → Application Received",
+     "detail": "Detected from an email from Petaling Systems",
+     "source": "gmail"
+    },
+    {
+     "id": "a06-e0",
+     "at": "2026-10-24T09:00:00+08:00",
+     "kind": "created",
+     "title": "Applied via JobStreet",
+     "source": "manual"
+    }
+   ]
+  },
+  {
+   "id": "a07",
+   "company": "Nusantara Digital",
+   "title": "Cloud Engineer (AWS)",
+   "description": "Cloud Engineer (AWS) role at Nusantara Digital. Full job description captured from the posting.",
+   "location": "Kuala Lumpur",
+   "employmentType": "Full-time",
+   "workArrangement": "Hybrid",
+   "salaryMin": 8500,
+   "salaryMax": 11000,
+   "currency": "MYR",
+   "platform": "LinkedIn",
+   "url": "https://careers.example.com/nusantaradigital/a07",
+   "appliedAt": "2026-10-27",
+   "status": "received",
+   "resumeVersionId": "r2",
+   "notes": "",
+   "lastCommunication": "2026-11-02T12:17:00+08:00",
+   "updatedAt": "2026-11-02T12:17:00+08:00",
+   "timeline": [
+    {
+     "id": "a07-e1",
+     "at": "2026-11-02T12:17:00+08:00",
+     "kind": "status",
+     "title": "Status → Application Received",
+     "detail": "Detected from an email from Nusantara Digital",
+     "source": "gmail"
+    },
+    {
+     "id": "a07-e0",
+     "at": "2026-10-27T09:00:00+08:00",
+     "kind": "created",
+     "title": "Applied via LinkedIn",
+     "source": "manual"
+    }
+   ]
+  },
+  {
+   "id": "a08",
+   "company": "Orkid Labs",
+   "title": "Security Automation Engineer",
+   "description": "Security Automation Engineer role at Orkid Labs. Full job description captured from the posting.",
+   "location": "Remote (APAC)",
+   "employmentType": "Full-time",
+   "workArrangement": "Remote",
+   "currency": "MYR",
+   "platform": "LinkedIn",
+   "url": "https://careers.example.com/orkidlabs/a08",
+   "appliedAt": "2026-10-30",
+   "status": "applied",
+   "resumeVersionId": "r2",
+   "notes": "",
+   "updatedAt": "2026-10-30T09:00:00+08:00",
+   "timeline": [
+    {
+     "id": "a08-e0",
+     "at": "2026-10-30T09:00:00+08:00",
+     "kind": "created",
+     "title": "Applied via LinkedIn",
+     "source": "manual"
+    }
+   ]
+  },
+  {
+   "id": "a09",
+   "company": "Tropika Analytics",
+   "title": "Infrastructure Engineer",
+   "description": "Infrastructure Engineer role at Tropika Analytics. Full job description captured from the posting.",
+   "location": "Kuala Lumpur",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "salaryMin": 7000,
+   "salaryMax": 9000,
+   "currency": "MYR",
+   "platform": "Indeed",
+   "url": "https://careers.example.com/tropikaanalytics/a09",
+   "appliedAt": "2026-09-21",
+   "status": "ghosted",
+   "resumeVersionId": "r2",
+   "notes": "",
+   "lastCommunication": "2026-10-22T15:34:00+08:00",
+   "updatedAt": "2026-10-22T15:34:00+08:00",
+   "timeline": [
+    {
+     "id": "a09-e2",
+     "at": "2026-10-22T15:34:00+08:00",
+     "kind": "status",
+     "title": "Status → No Response / Ghosted",
+     "source": "manual"
+    },
+    {
+     "id": "a09-e1",
+     "at": "2026-10-07T12:17:00+08:00",
+     "kind": "status",
+     "title": "Status → Application Received",
+     "detail": "Detected from an email from Tropika Analytics",
+     "source": "gmail"
+    },
+    {
+     "id": "a09-e0",
+     "at": "2026-09-21T09:00:00+08:00",
+     "kind": "created",
+     "title": "Applied via Indeed",
+     "source": "manual"
+    }
+   ]
+  },
+  {
+   "id": "a10",
+   "company": "Penang Silicon Works",
+   "title": "DevSecOps Engineer",
+   "description": "DevSecOps Engineer role at Penang Silicon Works. Full job description captured from the posting.",
+   "location": "Bayan Lepas, Penang",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "salaryMin": 9000,
+   "salaryMax": 12500,
+   "currency": "MYR",
+   "platform": "JobStreet",
+   "url": "https://careers.example.com/penangsiliconworks/a10",
+   "appliedAt": "2026-10-06",
+   "status": "assessment",
+   "recruiter": {
+    "name": "Kavitha S.",
+    "email": "kavitha@penangsiliconworks.example.com",
+    "phone": "+60 12-345 6789"
+   },
+   "resumeVersionId": "r1",
+   "notes": "",
+   "lastCommunication": "2026-10-27T15:34:00+08:00",
+   "updatedAt": "2026-10-27T15:34:00+08:00",
+   "timeline": [
+    {
+     "id": "a10-e2",
+     "at": "2026-10-27T15:34:00+08:00",
+     "kind": "status",
+     "title": "Status → Assessment",
+     "detail": "Detected from an email from Penang Silicon Works",
+     "source": "gmail"
+    },
+    {
+     "id": "a10-e1",
+     "at": "2026-10-17T12:17:00+08:00",
+     "kind": "status",
+     "title": "Status → Application Received",
+     "detail": "Detected from an email from Penang Silicon Works",
+     "source": "gmail"
+    },
+    {
+     "id": "a10-e0",
+     "at": "2026-10-06T09:00:00+08:00",
+     "kind": "created",
+     "title": "Applied via JobStreet",
+     "source": "manual"
+    }
+   ]
+  },
+  {
+   "id": "a11",
+   "company": "Lumen Telco",
+   "title": "Network Engineer",
+   "description": "Network Engineer role at Lumen Telco. Full job description captured from the posting.",
+   "location": "Cyberjaya",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "salaryMin": 7500,
+   "salaryMax": 9500,
+   "currency": "MYR",
+   "platform": "Recruiter",
+   "url": "https://careers.example.com/lumentelco/a11",
+   "appliedAt": "2026-09-16",
+   "status": "rejected",
+   "recruiter": {
+    "name": "Hafiz Osman",
+    "email": "hafiz@lumentelco.example.com",
+    "phone": "+60 12-345 6789"
+   },
+   "resumeVersionId": "r1",
+   "notes": "",
+   "lastCommunication": "2026-10-25T10:51:00+08:00",
+   "updatedAt": "2026-10-25T10:51:00+08:00",
+   "timeline": [
+    {
+     "id": "a11-e3",
+     "at": "2026-10-25T10:51:00+08:00",
+     "kind": "status",
+     "title": "Status → Rejected",
+     "detail": "Detected from an email from Lumen Telco",
+     "source": "gmail"
+    },
+    {
+     "id": "a11-e2",
+     "at": "2026-10-12T15:34:00+08:00",
+     "kind": "status",
+     "title": "Status → Interview Completed",
+     "source": "manual"
+    },
+    {
+     "id": "a11-e1",
+     "at": "2026-09-30T12:17:00+08:00",
+     "kind": "status",
+     "title": "Status → Interview Scheduled",
+     "detail": "Detected from an email from Lumen Telco",
+     "source": "gmail"
+    },
+    {
+     "id": "a11-e0",
+     "at": "2026-09-16T09:00:00+08:00",
+     "kind": "created",
+     "title": "Applied via Recruiter",
+     "source": "manual"
+    }
+   ]
+  },
+  {
+   "id": "a12",
+   "company": "Harimau Security",
+   "title": "Penetration Tester",
+   "description": "Penetration Tester role at Harimau Security. Full job description captured from the posting.",
+   "location": "Kuala Lumpur",
+   "employmentType": "Full-time",
+   "workArrangement": "Hybrid",
+   "salaryMin": 8000,
+   "salaryMax": 11000,
+   "currency": "MYR",
+   "platform": "LinkedIn",
+   "url": "https://careers.example.com/harimausecurity/a12",
+   "appliedAt": "2026-10-17",
+   "status": "recruiter_contacted",
+   "recruiter": {
+    "name": "Siti Aminah",
+    "email": "siti@harimausecurity.example.com",
+    "phone": "+60 12-345 6789"
+   },
+   "resumeVersionId": "r1",
+   "notes": "",
+   "lastCommunication": "2026-11-01T10:51:00+08:00",
+   "updatedAt": "2026-11-01T10:51:00+08:00",
+   "timeline": [
+    {
+     "id": "a12-e3",
+     "at": "2026-11-01T10:51:00+08:00",
+     "kind": "status",
+     "title": "Status → Recruiter Contacted",
+     "detail": "Detected from an email from Harimau Security",
+     "source": "gmail"
+    },
+    {
+     "id": "a12-e2",
+     "at": "2026-10-28T15:34:00+08:00",
+     "kind": "status",
+     "title": "Status → Under Review",
+     "source": "manual"
+    },
+    {
+     "id": "a12-e1",
+     "at": "2026-10-23T12:17:00+08:00",
+     "kind": "status",
+     "title": "Status → Application Received",
+     "detail": "Detected from an email from Harimau Security",
+     "source": "gmail"
+    },
+    {
+     "id": "a12-e0",
+     "at": "2026-10-17T09:00:00+08:00",
+     "kind": "created",
+     "title": "Applied via LinkedIn",
+     "source": "manual"
+    }
+   ]
+  },
+  {
+   "id": "a13",
+   "company": "Bayu Logistics Tech",
+   "title": "Cloud Operations Engineer",
+   "description": "Cloud Operations Engineer role at Bayu Logistics Tech. Full job description captured from the posting.",
+   "location": "Shah Alam",
+   "employmentType": "Full-time",
+   "workArrangement": "Hybrid",
+   "currency": "MYR",
+   "platform": "Indeed",
+   "url": "https://careers.example.com/bayulogisticstech/a13",
+   "appliedAt": "2026-10-21",
+   "status": "received",
+   "resumeVersionId": "r1",
+   "notes": "",
+   "lastCommunication": "2026-10-30T12:17:00+08:00",
+   "updatedAt": "2026-10-30T12:17:00+08:00",
+   "timeline": [
+    {
+     "id": "a13-e1",
+     "at": "2026-10-30T12:17:00+08:00",
+     "kind": "status",
+     "title": "Status → Application Received",
+     "detail": "Detected from an email from Bayu Logistics Tech",
+     "source": "gmail"
+    },
+    {
+     "id": "a13-e0",
+     "at": "2026-10-21T09:00:00+08:00",
+     "kind": "created",
+     "title": "Applied via Indeed",
+     "source": "manual"
+    }
+   ]
+  },
+  {
+   "id": "a14",
+   "company": "Andaman Payments",
+   "title": "Security Engineer, Cloud",
+   "description": "Security Engineer, Cloud role at Andaman Payments. Full job description captured from the posting.",
+   "location": "Kuala Lumpur",
+   "employmentType": "Full-time",
+   "workArrangement": "Hybrid",
+   "salaryMin": 11000,
+   "salaryMax": 14000,
+   "currency": "MYR",
+   "platform": "Company Website",
+   "url": "https://careers.example.com/andamanpayments/a14",
+   "appliedAt": "2026-10-12",
+   "status": "interview_completed",
+   "recruiter": {
+    "name": "Jason Wong",
+    "email": "jason@andamanpayments.example.com",
+    "phone": "+60 12-345 6789"
+   },
+   "resumeVersionId": "r1",
+   "notes": "",
+   "lastCommunication": "2026-10-31T10:51:00+08:00",
+   "updatedAt": "2026-10-31T10:51:00+08:00",
+   "timeline": [
+    {
+     "id": "a14-e3",
+     "at": "2026-10-31T10:51:00+08:00",
+     "kind": "status",
+     "title": "Status → Interview Completed",
+     "source": "manual"
+    },
+    {
+     "id": "a14-e2",
+     "at": "2026-10-25T15:34:00+08:00",
+     "kind": "status",
+     "title": "Status → Interview Scheduled",
+     "detail": "Detected from an email from Andaman Payments",
+     "source": "gmail"
+    },
+    {
+     "id": "a14-e1",
+     "at": "2026-10-19T12:17:00+08:00",
+     "kind": "status",
+     "title": "Status → Application Received",
+     "detail": "Detected from an email from Andaman Payments",
+     "source": "gmail"
+    },
+    {
+     "id": "a14-e0",
+     "at": "2026-10-12T09:00:00+08:00",
+     "kind": "created",
+     "title": "Applied via Company Website",
+     "source": "manual"
+    }
+   ]
+  },
+  {
+   "id": "a15",
+   "company": "Gunung Health Systems",
+   "title": "Systems Administrator",
+   "description": "Systems Administrator role at Gunung Health Systems. Full job description captured from the posting.",
+   "location": "Kuala Lumpur",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "salaryMin": 5500,
+   "salaryMax": 7000,
+   "currency": "MYR",
+   "platform": "JobStreet",
+   "url": "https://careers.example.com/gununghealthsystems/a15",
+   "appliedAt": "2026-09-08",
+   "status": "rejected",
+   "resumeVersionId": "r1",
+   "notes": "",
+   "lastCommunication": "2026-10-08T12:17:00+08:00",
+   "updatedAt": "2026-10-08T12:17:00+08:00",
+   "timeline": [
+    {
+     "id": "a15-e1",
+     "at": "2026-10-08T12:17:00+08:00",
+     "kind": "status",
+     "title": "Status → Rejected",
+     "detail": "Detected from an email from Gunung Health Systems",
+     "source": "gmail"
+    },
+    {
+     "id": "a15-e0",
+     "at": "2026-09-08T09:00:00+08:00",
+     "kind": "created",
+     "title": "Applied via JobStreet",
+     "source": "manual"
+    }
+   ]
+  },
+  {
+   "id": "a16",
+   "company": "Sentosa SaaS",
+   "title": "Kubernetes Platform Engineer",
+   "description": "Kubernetes Platform Engineer role at Sentosa SaaS. Full job description captured from the posting.",
+   "location": "Remote (SG)",
+   "employmentType": "Full-time",
+   "workArrangement": "Remote",
+   "salaryMin": 12000,
+   "salaryMax": 15000,
+   "currency": "MYR",
+   "platform": "LinkedIn",
+   "url": "https://careers.example.com/sentosasaas/a16",
+   "appliedAt": "2026-11-02",
+   "status": "applied",
+   "resumeVersionId": "r1",
+   "notes": "",
+   "updatedAt": "2026-11-02T09:00:00+08:00",
+   "timeline": [
+    {
+     "id": "a16-e0",
+     "at": "2026-11-02T09:00:00+08:00",
+     "kind": "created",
+     "title": "Applied via LinkedIn",
+     "source": "manual"
+    }
+   ]
+  },
+  {
+   "id": "a17",
+   "company": "Rimba Infra",
+   "title": "Junior Cloud Architect",
+   "description": "Junior Cloud Architect role at Rimba Infra. Full job description captured from the posting.",
+   "location": "Kuala Lumpur",
+   "employmentType": "Full-time",
+   "workArrangement": "Hybrid",
+   "currency": "MYR",
+   "platform": "Recruiter",
+   "url": "https://careers.example.com/rimbainfra/a17",
+   "appliedAt": "2026-09-28",
+   "status": "withdrawn",
+   "recruiter": {
+    "name": "Farah Idris",
+    "email": "farah@rimbainfra.example.com",
+    "phone": "+60 12-345 6789"
+   },
+   "resumeVersionId": "r1",
+   "notes": "",
+   "lastCommunication": "2026-10-24T15:34:00+08:00",
+   "updatedAt": "2026-10-24T15:34:00+08:00",
+   "timeline": [
+    {
+     "id": "a17-e2",
+     "at": "2026-10-24T15:34:00+08:00",
+     "kind": "status",
+     "title": "Status → Withdrawn",
+     "source": "manual"
+    },
+    {
+     "id": "a17-e1",
+     "at": "2026-10-12T12:17:00+08:00",
+     "kind": "status",
+     "title": "Status → Application Received",
+     "detail": "Detected from an email from Rimba Infra",
+     "source": "gmail"
+    },
+    {
+     "id": "a17-e0",
+     "at": "2026-09-28T09:00:00+08:00",
+     "kind": "created",
+     "title": "Applied via Recruiter",
+     "source": "manual"
+    }
+   ]
+  },
+  {
+   "id": "a18",
+   "company": "Cendana Bank Digital",
+   "title": "IAM Engineer",
+   "description": "IAM Engineer role at Cendana Bank Digital. Full job description captured from the posting.",
+   "location": "Kuala Lumpur",
+   "employmentType": "Full-time",
+   "workArrangement": "Hybrid",
+   "salaryMin": 10000,
+   "salaryMax": 12000,
+   "currency": "MYR",
+   "platform": "Company Website",
+   "url": "https://careers.example.com/cendanabankdigital/a18",
+   "appliedAt": "2026-08-31",
+   "status": "offer_rejected",
+   "recruiter": {
+    "name": "Rachel Ong",
+    "email": "rachel@cendanabankdigital.example.com",
+    "phone": "+60 12-345 6789"
+   },
+   "resumeVersionId": "r1",
+   "notes": "",
+   "lastCommunication": "2026-10-26T16:25:00+08:00",
+   "updatedAt": "2026-10-26T16:25:00+08:00",
+   "timeline": [
+    {
+     "id": "a18-e5",
+     "at": "2026-10-26T16:25:00+08:00",
+     "kind": "status",
+     "title": "Status → Offer Rejected",
+     "source": "manual"
+    },
+    {
+     "id": "a18-e4",
+     "at": "2026-10-15T13:08:00+08:00",
+     "kind": "status",
+     "title": "Status → Offer Received",
+     "detail": "Detected from an email from Cendana Bank Digital",
+     "source": "gmail"
+    },
+    {
+     "id": "a18-e3",
+     "at": "2026-10-04T10:51:00+08:00",
+     "kind": "status",
+     "title": "Status → Interview Completed",
+     "source": "manual"
+    },
+    {
+     "id": "a18-e2",
+     "at": "2026-09-23T15:34:00+08:00",
+     "kind": "status",
+     "title": "Status → Interview Scheduled",
+     "detail": "Detected from an email from Cendana Bank Digital",
+     "source": "gmail"
+    },
+    {
+     "id": "a18-e1",
+     "at": "2026-09-12T12:17:00+08:00",
+     "kind": "status",
+     "title": "Status → Application Received",
+     "detail": "Detected from an email from Cendana Bank Digital",
+     "source": "gmail"
+    },
+    {
+     "id": "a18-e0",
+     "at": "2026-08-31T09:00:00+08:00",
+     "kind": "created",
+     "title": "Applied via Company Website",
+     "source": "manual"
+    }
+   ]
+  },
+  {
+   "id": "a19",
+   "company": "Klang Valley Robotics",
+   "title": "IT Security Engineer",
+   "description": "IT Security Engineer role at Klang Valley Robotics. Full job description captured from the posting.",
+   "location": "Klang",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "currency": "MYR",
+   "platform": "Indeed",
+   "url": "https://careers.example.com/klangvalleyrobotics/a19",
+   "appliedAt": "2026-09-14",
+   "status": "ghosted",
+   "resumeVersionId": "r1",
+   "notes": "",
+   "lastCommunication": "2026-10-11T12:17:00+08:00",
+   "updatedAt": "2026-10-11T12:17:00+08:00",
+   "timeline": [
+    {
+     "id": "a19-e1",
+     "at": "2026-10-11T12:17:00+08:00",
+     "kind": "status",
+     "title": "Status → No Response / Ghosted",
+     "source": "manual"
+    },
+    {
+     "id": "a19-e0",
+     "at": "2026-09-14T09:00:00+08:00",
+     "kind": "created",
+     "title": "Applied via Indeed",
+     "source": "manual"
+    }
+   ]
+  },
+  {
+   "id": "a20",
+   "company": "Selangor Data Centres",
+   "title": "Data Centre Network Engineer",
+   "description": "Data Centre Network Engineer role at Selangor Data Centres. Full job description captured from the posting.",
+   "location": "Cyberjaya",
+   "employmentType": "Full-time",
+   "workArrangement": "On-site",
+   "salaryMin": 7000,
+   "salaryMax": 9000,
+   "currency": "MYR",
+   "platform": "JobStreet",
+   "url": "https://careers.example.com/selangordatacentres/a20",
+   "appliedAt": "2026-11-04",
+   "status": "applied",
+   "resumeVersionId": "r1",
+   "notes": "",
+   "updatedAt": "2026-11-04T09:00:00+08:00",
+   "timeline": [
+    {
+     "id": "a20-e0",
+     "at": "2026-11-04T09:00:00+08:00",
+     "kind": "created",
+     "title": "Applied via JobStreet",
+     "source": "manual"
+    }
+   ]
+  },
+  {
+   "id": "a21",
+   "company": "Awan Teknologi",
+   "title": "Cloud Security Architect",
+   "description": "Cloud Security Architect role at Awan Teknologi. Full job description captured from the posting.",
+   "location": "Kuala Lumpur",
+   "employmentType": "Full-time",
+   "workArrangement": "Hybrid",
+   "salaryMin": 15000,
+   "salaryMax": 19000,
+   "currency": "MYR",
+   "platform": "LinkedIn",
+   "url": "https://careers.example.com/awanteknologi/a21",
+   "appliedAt": "2026-11-05",
+   "status": "preparing",
+   "resumeVersionId": "r1",
+   "notes": "",
+   "updatedAt": "2026-11-05T09:00:00+08:00",
+   "timeline": [
+    {
+     "id": "a21-e0",
+     "at": "2026-11-05T09:00:00+08:00",
+     "kind": "created",
+     "title": "Saved to wishlist",
+     "source": "manual"
+    }
+   ]
+  },
+  {
+   "id": "a22",
+   "company": "Sireh Studio",
+   "title": "Infrastructure Lead",
+   "description": "Infrastructure Lead role at Sireh Studio. Full job description captured from the posting.",
+   "location": "Remote (MY)",
+   "employmentType": "Full-time",
+   "workArrangement": "Remote",
+   "currency": "MYR",
+   "platform": "Other",
+   "url": "https://careers.example.com/sirehstudio/a22",
+   "appliedAt": "2026-11-05",
+   "status": "interested",
+   "resumeVersionId": "r1",
+   "notes": "",
+   "updatedAt": "2026-11-05T09:00:00+08:00",
+   "timeline": [
+    {
+     "id": "a22-e0",
+     "at": "2026-11-05T09:00:00+08:00",
+     "kind": "created",
+     "title": "Saved to wishlist",
+     "source": "manual"
+    }
+   ]
+  }
+ ],
+ "interviews": [
+  {
+   "id": "i01",
+   "applicationId": "a01",
+   "start": "2026-11-10T10:00:00+08:00",
+   "end": "2026-11-10T11:00:00+08:00",
+   "timeZone": "Asia/Kuala_Lumpur",
+   "type": "Technical",
+   "platform": "Google Meet",
+   "meetingUrl": "https://meet.google.com/abc-defg-hij",
+   "interviewers": "Aina Rahman (Talent), Wei Jie Chong (Security Lead)",
+   "prepNotes": "Expect a threat-modelling exercise on a multi-account AWS setup.",
+   "status": "scheduled",
+   "calendarSynced": true
+  },
+  {
+   "id": "i02",
+   "applicationId": "a02",
+   "start": "2026-11-13T14:30:00+08:00",
+   "end": "2026-11-13T15:30:00+08:00",
+   "timeZone": "Asia/Kuala_Lumpur",
+   "type": "HR",
+   "platform": "Microsoft Teams",
+   "meetingUrl": "https://teams.microsoft.com/l/meetup-join/example",
+   "interviewers": "Daniel Lim (HR)",
+   "prepNotes": "Salary expectations and notice period.",
+   "status": "scheduled",
+   "calendarSynced": true
+  },
+  {
+   "id": "i03",
+   "applicationId": "a03",
+   "start": "2026-11-06T15:00:00+08:00",
+   "end": "2026-11-06T16:00:00+08:00",
+   "timeZone": "Asia/Kuala_Lumpur",
+   "type": "Hiring Manager",
+   "platform": "Zoom",
+   "meetingUrl": "https://zoom.us/j/1234567890",
+   "interviewers": "Priya Nair, Arun Kumar (Eng Manager)",
+   "prepNotes": "Walk through the GitOps migration project. Prepare a failure story.",
+   "status": "scheduled",
+   "calendarSynced": false
+  },
+  {
+   "id": "i04",
+   "applicationId": "a04",
+   "start": "2026-10-30T11:00:00+08:00",
+   "end": "2026-10-30T12:30:00+08:00",
+   "timeZone": "Asia/Kuala_Lumpur",
+   "type": "Final",
+   "platform": "Google Meet",
+   "interviewers": "Marcus Tan, CTO",
+   "prepNotes": "",
+   "status": "completed",
+   "calendarSynced": true
+  },
+  {
+   "id": "i05",
+   "applicationId": "a14",
+   "start": "2026-11-01T16:00:00+08:00",
+   "end": "2026-11-01T17:00:00+08:00",
+   "timeZone": "Asia/Kuala_Lumpur",
+   "type": "Technical",
+   "platform": "On-site",
+   "location": "Level 21, Menara Contoh, KL Sentral",
+   "interviewers": "Jason Wong",
+   "prepNotes": "",
+   "status": "completed",
+   "calendarSynced": true
+  },
+  {
+   "id": "i06",
+   "applicationId": "a03",
+   "start": "2026-10-25T10:00:00+08:00",
+   "end": "2026-10-25T11:00:00+08:00",
+   "timeZone": "Asia/Kuala_Lumpur",
+   "type": "Technical",
+   "platform": "Zoom",
+   "interviewers": "Platform team",
+   "prepNotes": "",
+   "status": "completed",
+   "calendarSynced": true
+  },
+  {
+   "id": "i07",
+   "applicationId": "a12",
+   "start": "2026-11-18T09:30:00+08:00",
+   "end": "2026-11-18T10:15:00+08:00",
+   "timeZone": "Asia/Kuala_Lumpur",
+   "type": "HR",
+   "platform": "Phone",
+   "interviewers": "Siti Aminah",
+   "prepNotes": "Screening call.",
+   "status": "scheduled",
+   "calendarSynced": false
+  }
+ ],
+ "followUps": [
+  {
+   "id": "f01",
+   "applicationId": "a06",
+   "due": "2026-11-03",
+   "reason": "10 days since applying with no response",
+   "rule": "after_applied_7d",
+   "status": "pending"
+  },
+  {
+   "id": "f02",
+   "applicationId": "a13",
+   "due": "2026-11-04",
+   "reason": "14 days without a response",
+   "rule": "no_response_14d",
+   "status": "pending"
+  },
+  {
+   "id": "f03",
+   "applicationId": "a14",
+   "due": "2026-11-05",
+   "reason": "Technical interview completed 4 days ago",
+   "rule": "after_interview_7d",
+   "status": "pending"
+  },
+  {
+   "id": "f04",
+   "applicationId": "a07",
+   "due": "2026-11-06",
+   "reason": "7 days after application",
+   "rule": "after_applied_7d",
+   "status": "pending"
+  },
+  {
+   "id": "f05",
+   "applicationId": "a12",
+   "due": "2026-11-08",
+   "reason": "Send portfolio link to recruiter",
+   "rule": "custom",
+   "status": "pending"
+  },
+  {
+   "id": "f06",
+   "applicationId": "a10",
+   "due": "2026-10-31",
+   "reason": "Ask about assessment results",
+   "rule": "custom",
+   "status": "completed"
+  },
+  {
+   "id": "f07",
+   "applicationId": "a09",
+   "due": "2026-10-16",
+   "reason": "14 days without a response",
+   "rule": "no_response_14d",
+   "status": "not_required"
+  }
+ ],
+ "emails": [
+  {
+   "id": "m01",
+   "gmailMessageId": "18f3a1c2d4e5f601",
+   "threadId": "18f3a1c2d4e5f600",
+   "receivedAt": "2026-11-05T08:12:00+08:00",
+   "from": "careers@abctechnologies.example.com",
+   "subject": "Interview invitation – Cloud Security Engineer",
+   "snippet": "Congratulations! We would like to invite you for an interview for the Cloud Security Engineer position at ABC Technologies…",
+   "classification": "interview_invitation",
+   "confidence": 0.97,
+   "extracted": {
+    "company": "ABC Technologies",
+    "title": "Cloud Security Engineer",
+    "interviewAt": "2026-11-10T10:00:00+08:00",
+    "meetingUrl": "https://meet.google.com/abc-defg-hij"
+   },
+   "matchedApplicationId": "a01",
+   "state": "auto_applied"
+  },
+  {
+   "id": "m02",
+   "gmailMessageId": "18f3a0b7aa11c902",
+   "threadId": "18f3a0b7aa11c902",
+   "receivedAt": "2026-11-04T17:40:00+08:00",
+   "from": "no-reply@greenhouse.example.io",
+   "subject": "Thanks for applying to Selangor Data Centres",
+   "snippet": "We've received your application for Data Centre Network Engineer and our team will review it shortly.",
+   "classification": "application_confirmation",
+   "confidence": 0.93,
+   "extracted": {
+    "company": "Selangor Data Centres",
+    "title": "Data Centre Network Engineer"
+   },
+   "matchedApplicationId": "a20",
+   "state": "auto_applied"
+  },
+  {
+   "id": "m03",
+   "gmailMessageId": "18f39f5521bd0a03",
+   "threadId": "18f39f5521bd0a03",
+   "receivedAt": "2026-11-04T11:05:00+08:00",
+   "from": "talent@harimausecurity.example.com",
+   "subject": "Quick chat about your application?",
+   "snippet": "Hi, I'm Siti from Harimau Security. Do you have 30 minutes next week for an initial call about the security role…",
+   "classification": "recruiter_message",
+   "confidence": 0.64,
+   "extracted": {
+    "company": "Harimau Security"
+   },
+   "state": "needs_review"
+  },
+  {
+   "id": "m04",
+   "gmailMessageId": "18f39e01c7d2b404",
+   "threadId": "18f39e01c7d2b404",
+   "receivedAt": "2026-11-03T09:30:00+08:00",
+   "from": "jobs-noreply@linkedin.example.com",
+   "subject": "Your application was viewed by Nusantara Digital",
+   "snippet": "Good news — your application for Cloud Engineer (AWS) was viewed by the hiring team.",
+   "classification": "status_update",
+   "confidence": 0.88,
+   "extracted": {
+    "company": "Nusantara Digital",
+    "title": "Cloud Engineer (AWS)"
+   },
+   "matchedApplicationId": "a07",
+   "state": "auto_applied"
+  },
+  {
+   "id": "m05",
+   "gmailMessageId": "18f39c44a0e9f505",
+   "threadId": "18f39c44a0e9f505",
+   "receivedAt": "2026-11-02T14:22:00+08:00",
+   "from": "recruiting@myworkday.example.com",
+   "subject": "Update on your application",
+   "snippet": "Thank you for your interest. After careful consideration we have decided to move forward with other candidates…",
+   "classification": "rejection",
+   "confidence": 0.58,
+   "extracted": {},
+   "state": "needs_review"
+  },
+  {
+   "id": "m06",
+   "gmailMessageId": "18f39a2be1f4c606",
+   "threadId": "18f39a2be1f4c606",
+   "receivedAt": "2026-11-01T10:02:00+08:00",
+   "from": "hr@straitsfintech.example.com",
+   "subject": "Offer of employment – Site Reliability Engineer",
+   "snippet": "We are delighted to offer you the position of Site Reliability Engineer. Please find the offer letter attached…",
+   "classification": "offer",
+   "confidence": 0.98,
+   "extracted": {
+    "company": "Straits Fintech",
+    "title": "Site Reliability Engineer"
+   },
+   "matchedApplicationId": "a04",
+   "state": "auto_applied"
+  },
+  {
+   "id": "m07",
+   "gmailMessageId": "18f398d10b77e707",
+   "threadId": "18f398d10b77e707",
+   "receivedAt": "2026-10-31T16:48:00+08:00",
+   "from": "no-reply@hackerrank.example.com",
+   "subject": "Penang Silicon Works has invited you to an assessment",
+   "snippet": "You have 7 days to complete the DevSecOps Engineer assessment. Estimated time: 90 minutes.",
+   "classification": "assessment_invitation",
+   "confidence": 0.91,
+   "extracted": {
+    "company": "Penang Silicon Works",
+    "title": "DevSecOps Engineer"
+   },
+   "matchedApplicationId": "a10",
+   "state": "confirmed"
+  },
+  {
+   "id": "m08",
+   "gmailMessageId": "18f3972f99a1b808",
+   "threadId": "18f3972f99a1b808",
+   "receivedAt": "2026-10-30T08:15:00+08:00",
+   "from": "noreply@jobstreet.example.com",
+   "subject": "Weekly job recommendations for you",
+   "snippet": "20 new jobs matching 'cloud security' in Kuala Lumpur…",
+   "classification": "status_update",
+   "confidence": 0.22,
+   "extracted": {},
+   "state": "ignored"
+  }
+ ],
+ "resumes": [
+  {
+   "id": "r1",
+   "name": "General – Cloud & Network",
+   "fileName": "Fikri_CV_general_v3.pdf",
+   "uploadedAt": "2026-10-02T10:00:00+08:00",
+   "notes": "Balanced; used for most applications."
+  },
+  {
+   "id": "r2",
+   "name": "Security-focused",
+   "fileName": "Fikri_CV_security_v2.pdf",
+   "uploadedAt": "2026-10-18T21:30:00+08:00",
+   "notes": "Leads with security projects and certifications."
+  }
+ ],
+ "audit": [
+  {
+   "id": "x1",
+   "at": "2026-11-05T08:40:00+08:00",
+   "tool": "get_statistics",
+   "summary": "Read application statistics",
+   "kind": "read",
+   "approved": true
+  },
+  {
+   "id": "x2",
+   "at": "2026-11-04T21:03:00+08:00",
+   "tool": "list_interviews",
+   "summary": "Listed interviews for the next 7 days",
+   "kind": "read",
+   "approved": true
+  },
+  {
+   "id": "x3",
+   "at": "2026-11-04T21:05:00+08:00",
+   "tool": "create_followup",
+   "summary": "Created follow-up for Harimau Security on 2026-11-08",
+   "kind": "write",
+   "approved": true
+  },
+  {
+   "id": "x4",
+   "at": "2026-11-03T19:22:00+08:00",
+   "tool": "delete_application",
+   "summary": "Requested deletion of Gunung Health Systems application (declined by you)",
+   "kind": "write",
+   "approved": false
+  }
+ ]
+}
